@@ -13,3 +13,17 @@ h2 {
 h3 {
 	font-family: 'Open Sans', sans-serif;
 }
+
+
+
+
+body { padding-top: 50px; }
+#about { padding-top: 50px; }
+#portfolio { padding-top: 50px; }
+
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+    #about { padding-top: 0px; }
+    #aportfolio { padding-top: 0px; }
+
+}
