@@ -13,6 +13,20 @@ h2 {
 h3 {
 	font-family: 'Open Sans', sans-serif;
 }
+.social ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center
+	
+}
+.social ul li{
+	display: inline;
+	padding: 50px;
+}
+.social ul li a:hover{
+	color:#900;
+}	
 
 
 
