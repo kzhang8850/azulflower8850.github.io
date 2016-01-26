@@ -1,11 +1,15 @@
 section {
 	font-family: 'Open Sans', sans-serif;
 }
+body { 
+	padding-top: 100px; 
+}
 p {
 	font-family: 'Open Sans', sans-serif;
 }
 h1 {
 	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 25px;
 }
 h2 {
 	font-family: 'Open Sans', sans-serif;
@@ -13,6 +17,70 @@ h2 {
 h3 {
 	font-family: 'Open Sans', sans-serif;
 }
+
+
+.navbar{
+	background-color: black;
+	
+}
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #00FFFF;
+    background-color: #fff;
+}
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #00FFFF;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	border-radius: 0;
+	color: #fff;
+	background-color: #00FFFF;
+}
+
+.navbar-default .navbar-brand{
+	color:#00FFFF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+	color: #fff;
+	font-size: 2em;
+}
+
+
+.navbar-default .nav li a{
+	color:white;
+}
+
+.navbar-default .nav li a:hover{
+    color:#00FFFF;
+}
+
+
+::selection{
+	background-color: #32CD32;
+
+}
+
+.intro-section {
+    
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    
+    text-align: center;
+    background: #fff;
+}
+
+
+
 .social ul{
 	list-style-type: none;
 	margin: 0;
@@ -23,23 +91,76 @@ h3 {
 .social ul li{
 	display: inline;
 	padding: 50px;
+	
+}
+
+
+
+.social ul li a{
+	color:white;
 }
 .social ul li a:hover{
-	color:#900;
-}	
-
-
-
-
-body { 
-	padding-top: 100px; 
+	color:#32CD32;
 }
+	
+.portfolio ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center
+}
+.portfolio ul li{
+	display: inline;
+	padding: 50px;
+	
+}
+
+
+
+.portfolio ul li a{
+	color:black;
+}
+.portfolio ul li a:hover{
+	color:#32CD32;
+}
+
+
+
+
 #about { 
 	padding-top: 100px; 
 }
 #portfolio { 
 	padding-top: 100px; 
 }
+#footer{
+	padding-bottom: 25px;
+	padding-top: 25px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+#socialsection{
+	padding-top:35px;
+	padding-bottom: 35px;
+	background-color: #191970;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+.navbar-default.navbar-shrink .navbar-brand {
+    font-size: 2em;
+}
+
+.navbar-default.navbar-shrink .nav {
+    font-size: 1.3em;
+}
+
+}
+
 
 @media screen and (max-width: 768px) {
     body { padding-top: 0px; }
