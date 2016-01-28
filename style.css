@@ -25,23 +25,27 @@ h3 {
 }
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #00FFFF;
+    color: #50dcff
+;
     background-color: #fff;
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #00FFFF;
+    color: #50dcff
+;
 }
 
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
 	color: #fff;
-	background-color: #00FFFF;
+	background-color: #50dcff
+;
 }
 
 .navbar-default .navbar-brand{
-	color:#00FFFF;
+	color:#50dcff
+;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -58,7 +62,8 @@ h3 {
 }
 
 .navbar-default .nav li a:hover{
-    color:#00FFFF;
+    color:#50dcff
+;
 }
 
 
