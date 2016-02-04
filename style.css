@@ -5,7 +5,7 @@ section {
 body { 
 	padding-top: 100px; 
 	font-size:18px;
-	background-color: #dddfd4
+	background-color: 	#FFFAFA;
 }
 p {
 	font-family: 'Open Sans', sans-serif;
@@ -21,7 +21,7 @@ h2 {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	padding-bottom: 30px;
-	color: #173e43;
+	
 }
 h3 {
 	font-family: 'Open Sans', sans-serif;
@@ -105,8 +105,7 @@ blockquote cite {
 }
 
 .navbar-default .nav li a:hover{
-    color:#fae596
-;
+    color:#fae596;
 }
 
 
@@ -118,8 +117,11 @@ blockquote cite {
 .intro-section {
     
     text-align: center;
-    background: #dddfd4;
+    
     padding-bottom: 100px;
+}
+.intro-section-2{
+	background-color: #dddfd4;
 }
 
 .about-section {
@@ -180,12 +182,17 @@ blockquote cite {
 
 
 
-
+#intro{
+	padding-top: 20px;
+	background-color: 	#f8f8f6;
+}
 #about { 
 	padding-top: 100px; 
 }
 #portfolio { 
+	background-color: #dddfd4;
 	padding-top: 100px; 
+	padding-bottom: 100px;
 }
 #footer{
 	padding-bottom: 25px;
