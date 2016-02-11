@@ -34,7 +34,7 @@ blockquote p, blockquote cite{
 }
 blockquote { 
 	border-left: 3px solid #3fb0ac;
-	margin: 0 0 30px; 
+	margin: 0px 0px 30px; 
 	padding: 0px 20px 0px 19px; 
 	text-align: left
 }
@@ -107,7 +107,11 @@ blockquote cite {
 .navbar-default .nav li a:hover{
     color:#fae596;
 }
-
+.navbar-fixed-bottom, .navbar-fixed-top{
+	right:auto;
+	width:100%;
+	
+}
 
 ::selection{
 	background-color: #fae596;
