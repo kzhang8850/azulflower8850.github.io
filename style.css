@@ -230,7 +230,10 @@ blockquote cite {
 
 
 @media screen and (max-width: 768px) {
-    body { padding-top: 0px; }
+    body { padding-top: 0px; 
+    	width: 100vw;
+    }
+
     #about { padding-top: 0px; }
     #aportfolio { padding-top: 0px; }
 
