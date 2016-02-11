@@ -229,9 +229,9 @@ blockquote cite {
 }
 
 
-@media only screen and (max-width: 1080px) {
+@media (max-width: 700px) {
     body { padding-top: 0px; 
-    	width: 100vw;
+    	width: 640px;
     }
 
     #about { padding-top: 0px; }
