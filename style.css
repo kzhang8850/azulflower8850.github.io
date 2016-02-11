@@ -110,7 +110,7 @@ blockquote cite {
 .navbar-fixed-bottom, .navbar-fixed-top{
 	right:auto;
 	width:100%;
-	
+
 }
 
 ::selection{
@@ -176,7 +176,9 @@ blockquote cite {
 }
 
 
-
+.centeringstuff{
+	width:100%;
+}
 .portfolio ul li a{
 	color:black;
 }
