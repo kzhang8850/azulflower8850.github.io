@@ -211,7 +211,7 @@ blockquote cite {
 
 
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 .navbar-default.navbar-shrink .navbar-brand {
     font-size: 2em;
 }
