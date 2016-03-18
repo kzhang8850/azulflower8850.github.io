@@ -56,6 +56,31 @@ blockquote cite {
 	font-size: 15px; 
 	font-size: 1.3rem; 
 }
+#slides{
+	padding-top: 0px;
+	padding-bottom: 50px;
+	background-color: 	#fcfcfb;
+
+}
+
+#slideshow{
+	width: 100%;
+	
+	position: relative;
+	height: 600px;
+	box-shadow: 0 0 20px rgba(0,0,0,.4);
+
+}
+
+#slideshow div{
+	position: absolute;
+	width: 1120px;
+	height:580px;
+	margin: 10px;
+	text-align: center;
+}
+
+
 
 .underconstruction p{
 
