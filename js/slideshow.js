@@ -16,7 +16,7 @@ function carousel() {
 
     x[myIndex-1].style.display = "block";
     dots[myIndex-1].className += " w3-white";  
-    setTimeout(carousel, 5000);    
+    setTimeout(carousel, 7000);    
 }
 
 
