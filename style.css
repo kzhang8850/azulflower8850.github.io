@@ -62,12 +62,14 @@ blockquote cite {
 }
 
 
+body.modal-open {
+    overflow: visible;
+}
+
 
 .w3-badge {
 	height:13px;
 	width:13px;
-	padding:0;
-	margin-top: 620px; 
 	cursor:pointer
 	
 }
@@ -82,15 +84,23 @@ blockquote cite {
 #slideshow{
 	position: relative;
 	width: 100%;
-	height: 650px;
 	box-shadow: 0 0 20px rgba(0,0,0,.4);
 
+}
+#slideshow:before{
+	content:"";
+	display:block;
+	padding-top: 56.25%;
 }
 
 #slideshow div{
 	position: absolute;
-	width:100%;
-	height:100%;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+
+
 
 }
 
