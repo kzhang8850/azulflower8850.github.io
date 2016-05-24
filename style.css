@@ -181,12 +181,22 @@ body.modal-open {
 	background-color: #dddfd4;
 }
 
+
 .about-section {
     
     text-align: left;
     background:  #eeefe9;
 
 }
+
+
+.proxy{
+	opacity: 0;
+}
+
+
+
+
 
 
 #portfolio .portfolio-item{
@@ -347,7 +357,7 @@ body.modal-open {
 
 }
 .portfolio-modal .modal-content ul li a{
-	color:black;
+	color:#173e43;
 }
 .portfolio-modal .modal-content ul li a:hover{
 	color:#fae596;
