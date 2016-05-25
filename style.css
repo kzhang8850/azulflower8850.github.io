@@ -339,8 +339,13 @@ body.modal-open {
 	font-size: 16px;
 	font-style: italic;
 }
-
+.content-body{
+	text-align: left;
+}
 .portfolio-modal .modal-content img{
+	padding-bottom: 30px;
+}
+.portfolio-modal .modal-content iframe{
 	padding-bottom: 30px;
 }
 
