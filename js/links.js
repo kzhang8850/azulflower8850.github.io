@@ -6,6 +6,7 @@ $(document).ready(function() {
 //Jobs Links to Modals
   if(window.location.href.indexOf('#IvaniModal') != -1) {
     $('#IvaniModal').modal('show');
+    window.location.hash=""
   }
   else if(window.location.href.indexOf('#ConnexinModal') != -1) {
     $('#ConnexinModal').modal('show');
