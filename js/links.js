@@ -1,5 +1,5 @@
 //Creates links to individual modals, such that open using the link with the modal name
-//the website will open with the modal already open
+//the website will open with the modal already open.
 
 $(document).ready(function() {
 
