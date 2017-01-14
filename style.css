@@ -1,62 +1,62 @@
 section {
-	font-family: Montserrat,"Helvetica Neue",Helvetica,sans-serif;
+	font-family: "TexGyreHeros","Helvetica Neue",Helvetica,sans-serif;
 	font-size:18px;
 }
-body { 
-	padding-top: 100px; 
+body {
+	padding-top: 90px;
 	font-size:18px;
 	background-color: 	#FFFAFA;
 	width: 100%;
 }
 p {
-	font-family: Montserrat,"Helvetica Neue",Helvetica,sans-serif;
+	font-family: "TexGyreHeros","Helvetica Neue",Helvetica,sans-serif;
 	font-size:18px;
 	line-height: 1.5;
 }
 h1 {
-	font-family: Montserrat,"Helvetica Neue",Helvetica,sans-serif;
+	font-family: "TexGyreHeros","Helvetica Neue",Helvetica,sans-serif;
 	padding-bottom: 25px;
 	color: #173e43;
 }
 h2 {
-	font-family: Montserrat,"Helvetica Neue",Helvetica,sans-serif;
+	font-family: "TexGyreHeros","Helvetica Neue",Helvetica,sans-serif;
 	text-align: center;
 	padding-bottom: 30px;
-	
+
 }
 h3 {
-	font-family: Montserrat,"Helvetica Neue",Helvetica,sans-serif;
+	font-family: "TexGyreHeros","Helvetica Neue",Helvetica,sans-serif;
 	color: #173e43;
 }
 h4 {
-	font-family: Montserrat,"Helvetica Neue",Helvetica,sans-serif;
+	font-family: "TexGyreHeros","Helvetica Neue",Helvetica,sans-serif;
 	color: #173e43;
 }
 
 blockquote p, blockquote cite{
-	font-family: Montserrat,"Helvetica Neue",Helvetica,sans-serif;
+	font-family: "TexGyreHeros","Helvetica Neue",Helvetica,sans-serif;
 	line-height: 1.3;
 }
-blockquote { 
+blockquote {
 	border-left: 3px solid #3fb0ac;
-	margin: 0px 0px 30px; 
-	padding: 0px 20px 0px 19px; 
+	margin: 0px 0px 30px;
+	padding: 0px 20px 0px 19px;
 	text-align: left
 }
-blockquote p { 
-	color: #3fb0ac; 
-	font-style: italic; 
-	font-size: 18px; 
+blockquote p {
+	color: #3fb0ac;
+	font-style: italic;
+	font-size: 18px;
 	margin-bottom: 15px
 }
-blockquote cite { 
+blockquote cite {
 	display: block;
-	color: #555; 
+	color: #555;
 	font-style: normal;
-	font-weight: 600; 
-	letter-spacing: 1px; 
-	text-transform: uppercase; 
-	font-size: 15px; 
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 15px;
 }
 
 
@@ -65,54 +65,15 @@ body.modal-open {
 }
 
 
-.w3-badge {
-	height:13px;
-	width:13px;
-	cursor:pointer
-	
-}
-
-#slides{
-
-	padding-bottom: 50px;
-	background-color: #fcfcfb;
-
-}
-
-#slideshow{
-	position: relative;
-	width: 100%;
-	box-shadow: 0 0 20px rgba(0,0,0,.4);
-
-}
-#slideshow:before{
-	content:"";
-	display:block;
-	padding-top: 56.25%;
-}
-
-#slideshow div{
-	position: absolute;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
 
 
 
-}
 
-
-
-.underconstruction p{
-
-	font-size: 12px;
-}
 
 
 .navbar{
 	background-color: #173e43;
-	
+
 }
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
@@ -163,6 +124,34 @@ body.modal-open {
 
 
 
+.banner {
+	background-attachment: scroll,							fixed;
+	background-color: #666;
+	background-image: url("Images/overlay.png"), url("Images/Hero.jpg");
+	background-position: top left,						center center;
+	background-repeat: repeat,							no-repeat;
+	background-size: auto,							cover;
+	color: #fff;
+	padding: 12em 0 20em 0;
+	text-align: center;
+}
+.banner h1{
+	font-family: "Brandon Grotesque","Helvetica Neue",Helvetica,sans-serif;
+	font-size: 120px;
+	color: #f5f5f5;
+	padding-bottom: 0px;
+}
+.banner h3{
+	font-family: "Brandon Grotesque","Helvetica Neue",Helvetica,sans-serif;
+	font-size: 32px;
+	color: #f5f5f5;
+	padding-bottom: 50px;
+}
+
+
+
+
+
 
 ::selection{
 	background-color: #fae596;
@@ -170,14 +159,14 @@ body.modal-open {
 }
 
 .intro-section {
-    
+
     text-align: center;
-    
+		padding-top: 100px;
     padding-bottom: 100px;
 }
 
 .about-section {
-    
+
     text-align: left;
     background:  #eeefe9;
 
@@ -188,13 +177,16 @@ body.modal-open {
 	opacity: 0;
 }
 
+#portfolio .portfolio-item .rounded-corners{
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 
-
-
+}
 
 #portfolio .portfolio-item{
 
 	margin:0 0 15px;
+	border-radius: 25px;
 
 }
 
@@ -205,6 +197,7 @@ body.modal-open {
 	max-width: 400px;
 	min-height: 300px;
 	max-height:300px;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover{
@@ -212,6 +205,8 @@ body.modal-open {
 	width: 100%;
 	height: 100%;
 	opacity: 0;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 	background: rgba(250,229,150,.9);
 	-webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
@@ -248,6 +243,9 @@ body.modal-open {
 	max-width: 400px;
 	text-align: center;
 	background-color: #fff;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+
 
 }
 
@@ -258,7 +256,7 @@ body.modal-open {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Pier Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -328,7 +326,7 @@ body.modal-open {
 }
 .portfolio-modal .modal-content p .item-intro{
 	margin: 20px 0 30px;
-	font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Brandon Grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-style: italic;
 }
@@ -374,12 +372,12 @@ body.modal-open {
 	margin: 0;
 	padding: 0;
 	text-align: center
-	
+
 }
 .social ul li{
 	display: inline;
 	padding: 50px;
-	
+
 }
 
 
@@ -394,7 +392,7 @@ body.modal-open {
 .copyright p, .Madefrom p{
 	font-size: 14px;
 }
-	
+
 
 
 
@@ -410,12 +408,12 @@ body.modal-open {
 	padding-top: 20px;
 	background-color: 	#f8f8f6;
 }
-#about { 
-	padding-top: 100px; 
+#about {
+	padding-top: 100px;
 }
-#portfolio { 
+#portfolio {
 	background-color: #dddfd4;
-	padding-top: 100px; 
+	padding-top: 100px;
 	padding-bottom: 100px;
 }
 #footer{
@@ -448,8 +446,8 @@ body.modal-open {
 
 
 @media (max-width: 768px) {
-    body { 
-    	padding-top: 75px; 
+    body {
+    	padding-top: 75px;
     	width: 100%;
     }
 
