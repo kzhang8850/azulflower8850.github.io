@@ -4,84 +4,99 @@
 $(document).ready(function() {
 
 //Jobs Links to Modals
-  if(window.location.href.indexOf('#IvaniModal') != -1) {
-    $('#IvaniModal').modal('show');
+  if(window.location.href.indexOf('#ivani') != -1) {
+    $('#ivani').modal('show');
     window.location.hash = "";
   }
-  else if(window.location.href.indexOf('#ConnexinModal') != -1) {
-    $('#ConnexinModal').modal('show');
+  else if(window.location.href.indexOf('#nutonomy') != -1) {
+    $('#nutonomy').modal('show');
     window.location.hash = "";
 
   }
-  else if(window.location.href.indexOf('#BoxerModal') != -1) {
-    $('#BoxerModal').modal('show');
+  else if(window.location.href.indexOf('#connexin') != -1) {
+    $('#connexin').modal('show');
+    window.location.hash = "";
+
+  }
+  else if(window.location.href.indexOf('#boxer') != -1) {
+    $('#boxer').modal('show');
     window.location.hash = "";
 
   }
 
 //Project Links to Modals
-  else if(window.location.href.indexOf('#EdwinModal') != -1) {
-    $('#EdwinModal').modal('show');
+  else if(window.location.href.indexOf('#nevo') != -1) {
+    $('#nevo').modal('show');
     window.location.hash = "";
 
   }
-  else if(window.location.href.indexOf('#AquaponicsModal') != -1) {
-    $('#AquaponicsModal').modal('show');
+  else if(window.location.href.indexOf('#neatodriver') != -1) {
+    $('#neatodriver').modal('show');
     window.location.hash = "";
 
   }
-  else if(window.location.href.indexOf('#CapnChickenModal') != -1) {
-    $('#CapnChickenModal').modal('show');
+  else if(window.location.href.indexOf('#edwin') != -1) {
+    $('#edwin').modal('show');
     window.location.hash = "";
 
   }
-  else if(window.location.href.indexOf('#ISIMModal') != -1) {
-    $('#ISIMModal').modal('show');
+  else if(window.location.href.indexOf('#aquaponics') != -1) {
+    $('#aquaponics').modal('show');
     window.location.hash = "";
 
   }
-  else if(window.location.href.indexOf('#LiteModal') != -1) {
-    $('#LiteModal').modal('show');
+  else if(window.location.href.indexOf('#capnchicken') != -1) {
+    $('#capnchicken').modal('show');
     window.location.hash = "";
 
   }
-  else if(window.location.href.indexOf('#2048Modal') != -1) {
-    $('#2048Modal').modal('show');
+  else if(window.location.href.indexOf('#isim') != -1) {
+    $('#isim').modal('show');
     window.location.hash = "";
 
   }
-  else if(window.location.href.indexOf('#GetRealModal') != -1) {
-    $('#GetRealModal').modal('show');
+  else if(window.location.href.indexOf('#smartlite') != -1) {
+    $('#smartlite').modal('show');
     window.location.hash = "";
 
   }
-  else if(window.location.href.indexOf('#REVOModal') != -1) {
-    $('#REVOModal').modal('show');
+  else if(window.location.href.indexOf('#2048') != -1) {
+    $('#2048').modal('show');
     window.location.hash = "";
 
   }
-  else if(window.location.href.indexOf('#DesnatModal') != -1) {
-    $('#DesnatModal').modal('show');
+  else if(window.location.href.indexOf('#getreal') != -1) {
+    $('#getreal').modal('show');
     window.location.hash = "";
 
   }
-  else if(window.location.href.indexOf('#BikesModal') != -1) {
-    $('#BikesModal').modal('show');
+  else if(window.location.href.indexOf('#revo') != -1) {
+    $('#revo').modal('show');
     window.location.hash = "";
 
   }
-  else if(window.location.href.indexOf('#MAOModal') != -1) {
-    $('#MAOModal').modal('show');
+  else if(window.location.href.indexOf('#desnat') != -1) {
+    $('#desnat').modal('show');
     window.location.hash = "";
 
   }
-  else if(window.location.href.indexOf('#IClubModal') != -1) {
-    $('#IClubModal').modal('show');
+  else if(window.location.href.indexOf('#bikes') != -1) {
+    $('#bikes').modal('show');
     window.location.hash = "";
 
   }
-  else if(window.location.href.indexOf('#DebateModal') != -1) {
-    $('#DebateModal').modal('show');
+  else if(window.location.href.indexOf('#mao') != -1) {
+    $('#mao').modal('show');
+    window.location.hash = "";
+
+  }
+  else if(window.location.href.indexOf('#iclub') != -1) {
+    $('#iclub').modal('show');
+    window.location.hash = "";
+
+  }
+  else if(window.location.href.indexOf('#debate') != -1) {
+    $('#debate').modal('show');
     window.location.hash = "";
 
   }
