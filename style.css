@@ -148,6 +148,55 @@ body.modal-open {
 	padding-bottom: 50px;
 }
 
+.aboutbanner {
+	background-attachment: scroll,							fixed;
+	background-color: #666;
+	background-image: url("Images/overlay.png"), url("Images/kevin_pose.JPG");
+	background-position: top left,						center center;
+	background-repeat: repeat,							no-repeat;
+	background-size: auto,							cover;
+	color: #fff;
+	padding: 12em 0 20em 0;
+	text-align: center;
+}
+.aboutbanner h1{
+	font-family: "Brandon Grotesque","Helvetica Neue",Helvetica,sans-serif;
+	font-size: 120px;
+	color: #f5f5f5;
+	padding-bottom: 0px;
+}
+.aboutbanner h3{
+	font-family: "Brandon Grotesque","Helvetica Neue",Helvetica,sans-serif;
+	font-size: 32px;
+	color: #f5f5f5;
+	padding-bottom: 50px;
+}
+
+.projectbanner {
+	background-attachment: scroll,							fixed;
+	background-color: #666;
+	background-image: url("Images/overlay.png"), url("Images/project_banner.jpg");
+	background-position: top left,						center center;
+	background-repeat: repeat,							no-repeat;
+	background-size: auto,							cover;
+	color: #fff;
+	padding: 12em 0 20em 0;
+	text-align: center;
+}
+.projectbanner h1{
+	font-family: "Brandon Grotesque","Helvetica Neue",Helvetica,sans-serif;
+	font-size: 120px;
+	color: #f5f5f5;
+	padding-bottom: 0px;
+}
+.projectbanner h3{
+	font-family: "Brandon Grotesque","Helvetica Neue",Helvetica,sans-serif;
+	font-size: 32px;
+	color: #f5f5f5;
+	padding-bottom: 50px;
+}
+
+
 
 
 
@@ -169,6 +218,27 @@ body.modal-open {
 
     text-align: left;
     background:  #eeefe9;
+
+}
+.aboutme-section {
+
+    text-align: left;
+    background:  #eeefe9;
+		padding-top: 100px;
+		padding-bottom: 50px;
+
+}
+
+#aboutme .rounded-corners{
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+#portfolio .portfolio-item .rounded-corners{
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 
 }
 
@@ -399,6 +469,7 @@ body.modal-open {
 
 .centeringstuff{
 	width:100%;
+	text-align: center;
 }
 
 
@@ -410,6 +481,7 @@ body.modal-open {
 }
 #about {
 	padding-top: 100px;
+	padding-bottom: 50px;
 }
 #portfolio {
 	background-color: #dddfd4;
