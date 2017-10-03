@@ -35,6 +35,11 @@ $(document).ready(function() {
     window.location.hash = "";
 
   }
+  else if(window.location.href.indexOf('#frost') != -1) {
+    $('#frost').modal('show');
+    window.location.hash = "";
+
+  }
   else if(window.location.href.indexOf('#edwin') != -1) {
     $('#edwin').modal('show');
     window.location.hash = "";
@@ -52,6 +57,11 @@ $(document).ready(function() {
   }
   else if(window.location.href.indexOf('#isim') != -1) {
     $('#isim').modal('show');
+    window.location.hash = "";
+
+  }
+  else if(window.location.href.indexOf('#ppr') != -1) {
+    $('#ppr').modal('show');
     window.location.hash = "";
 
   }
@@ -100,6 +110,7 @@ $(document).ready(function() {
     window.location.hash = "";
 
   }
+
 
 
 });
