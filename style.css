@@ -151,7 +151,7 @@ body.modal-open {
 .aboutbanner {
 	background-attachment: scroll,							fixed;
 	background-color: #666;
-	background-image: url("Images/overlay.png"), url("Images/kevin_pose.JPG");
+	background-image: url("Images/overlay.png"), url("Images/kevin_handsup.JPG");
 	background-position: top left,						center center;
 	background-repeat: repeat,							no-repeat;
 	background-size: auto,							cover;
