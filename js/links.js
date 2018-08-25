@@ -110,6 +110,21 @@ $(document).ready(function() {
     window.location.hash = "";
 
   }
+  else if(window.location.href.indexOf('#cuda') != -1) {
+    $('#cuda').modal('show');
+    window.location.hash = "";
+
+  }
+  else if(window.location.href.indexOf('#gemini') != -1) {
+    $('#gemini').modal('show');
+    window.location.hash = "";
+
+  }
+  else if(window.location.href.indexOf('#ar') != -1) {
+    $('#ar').modal('show');
+    window.location.hash = "";
+
+  }
 
 
 
