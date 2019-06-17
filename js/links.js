@@ -25,6 +25,17 @@ $(document).ready(function() {
   }
 
 //Project Links to Modals
+
+  else if(window.location.href.indexOf('#scope') != -1) {
+    $('#scope').modal('show');
+    window.location.hash = "";
+
+  }
+  else if(window.location.href.indexOf('#isr') != -1) {
+    $('#isr').modal('show');
+    window.location.hash = "";
+
+  }
   else if(window.location.href.indexOf('#nevo') != -1) {
     $('#nevo').modal('show');
     window.location.hash = "";
