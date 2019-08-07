@@ -198,6 +198,11 @@ body.modal-open {
 
 
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 
 
 
@@ -500,8 +505,6 @@ body.modal-open {
 	padding-bottom: 35px;
 	background-color: #3fb0ac;
 }
-
-
 
 
 
