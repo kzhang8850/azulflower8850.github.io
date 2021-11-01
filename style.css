@@ -71,9 +71,12 @@ body.modal-open {
 
 
 
-.navbar{
+.navbar {
 	background-color: #173e43;
 
+}
+.navbar-default {
+   border:none;
 }
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
@@ -96,7 +99,7 @@ body.modal-open {
 }
 
 .navbar-default .navbar-brand{
-	color:#3fb0ac
+	color:white
 ;
 }
 
